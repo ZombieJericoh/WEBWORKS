@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'Champagne & Limousines';
+  src:  url('../fonts/Champagne & Limousines.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/Champagne & Limousines Italic')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/Champagne & Limousines Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/Champagne & Limousines Bold Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src:  url('../fonts/Gotham-Bold.otf')  format('opentype'), /* Safari, Android, iOS, Windows */
+        url('../fonts/Gotham-BoldIta.otf')  format('opentype'), /* Safari, Android, iOS, Windows */
+        url('../fonts/Gotham-Book.otf')  format('opentype'), /* Safari, Android, iOS, Windows */
+        url('../fonts/Gotham-BookIta.otf')  format('opentype'), /* Safari, Android, iOS, Windows */
+        url('../fonts/Gotham-Light.otf')  format('opentype'), /* Safari, Android, iOS, Windows */
+        url('../fonts/Gotham-LightIta.otf')  format('opentype'), /* Safari, Android, iOS, Windows */
+        url('../fonts/Gotham-Medium.otf')  format('opentype'), /* Safari, Android, iOS, Windows */
+        url('../fonts/Gotham-MediumIta.otf')  format('opentype'), /* Safari, Android, iOS, Windows */
+}
+
+body{
+    font-family: Verdana, sans-serif, serif !important;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0px;
+}
+
+.ham-ico {
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.home h1{
+    font-size: 25em !important;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+body h2{
+    font-size: 13.6em;
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.home{
+    height: 906px;
+    width: 100%;
+    background-image: url(../images/HOME_BG.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.quienes-somos{
+    font-family: 'Champagne & Limousines', 'Helvetica', 'Verdana';
+    height: 550px;
+    width: 100%;
+}
+
+.quienes-somos > h1{
+    font-size: 5em !important;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 180px;
+    margin-bottom: 85px;
+}
+
+.quienes-somos > h3{
+    font-family: 'Champagne & Limousines', 'Helvetica', 'Verdana';
+    text-align: justify;
+    font-size: 2em;
+    width: 70%;
+    margin-left: 253px;
+    font-kerning: 75px;
+}
+
+.que-hacemos{
+    font-family: 'Champagne & Limousines', 'Helvetica', 'Verdana';
+    height: 960px;
+    width: 100%;
+    background-image: url(../images/Concert.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.que-hacemos > h1{
+    font-size: 5em !important;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 85px;
+    padding-top: 90px;
+}
+
+.que-hacemos > h3{
+    font-family: 'Champagne & Limousines', 'Helvetica', 'Verdana';
+    text-align: justify;
+    font-size: 2em;
+    width: 70%;
+    margin-left: 253px;
+    font-kerning: 75px;
+}
+
+.tu-marca{
+    font-family: 'Champagne & Limousines', 'Helvetica', 'Verdana';
+    height: 960px;
+    width: 100%;
+    background-color: #202020;
+    color: #ffffff;
+}
+
+.tu-marca > h1{
+    letter-spacing: 5px;
+    font-size: 5em !important;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 85px;
+    padding-top: 80px;
+    text-shadow: 0 0 0.2em #cc0033;
+    color: #ff0000;
+}
+
+.tu-marca > h3{
+    text-align: justify;
+    font-size: 2em;
+    width: 70%;
+    margin-left: 253px;
+    font-kerning: 75px;
+}
+
+.row{
+    margin-left: 465px !important;
+    margin-top: 60px;
+}
+
+.col-{
+    width: 400px;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.col- > img{
+    margin-bottom: 35px;
+    margin-left: -25px; 
+}
+
+.col- h3{
+    font-size: 1.3em;
+    text-align: center;
+    margin-left: -100px;
+    margin-bottom: 100px;
+}
+
+.eventos{
+    font-family: 'Champagne & Limousines', 'Helvetica', 'Verdana';
+    height: 960px;
+    width: 100%;
+    background-color: #f19800;
+    background-image: url(../images/proyes.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.eventos > h3{
+    font-family: 'Champagne & Limousines', 'Helvetica', 'Verdana';
+    text-align: justify;
+    font-size: 2em;
+    width: 70%;
+    margin-left: 253px;
+    font-kerning: 75px;
+    padding-top: 150px;
+}
+
+.eventos > img{
+    width: 90%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+footer{
+    font-family: 'Gotham-Light';
+    background-color: #303030;
+    height: 300px;
+    color: #ffffff;
+}
+
+footer > h3{
+    padding-top: 35px;
+    margin-left: 80px;
+}
+
+footer > p{
+    padding-top: 10px;
+    margin-left: 110px;
+}
+
+footer > img{
+    margin-top: -260px;
+    margin-left: 700px;
+    width: 75%;
+    height: 75%;
+}
